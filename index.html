@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>WeeklyAppmod</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/Navbar---Apple-1.css">
+    <link rel="stylesheet" href="assets/css/Navbar---Apple.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" data-aos="fade-up">
+        <header data-aos="zoom-in" data-aos-duration="450">
+            <h1 class="text-center">Weekly Budget App</h1>
+        </header>
+        <section class="main-content">
+            <div class="row">
+                <div class="col">
+                    <div class="text-center">
+                        <h2>Add your Expenses here...</h2>
+                        <form class="add-expense">
+                            <div class="form-group"><label for="expense">Name</label><input class="form-control" type="text" id="expense" placeholder="Eg. Foods and Snacks"></div>
+                            <div class="form-group"><label for="amount">Amount</label><input class="form-control" type="text" id="expense" placeholder="Eg. Rs 500"></div><button class="btn btn-primary" type="submit">Add</button></form>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="content secondary">
+                        <h2 class="text-center">List</h2>
+                        <div id="expenses">
+                            <ul class="list-group"></ul>
+                        </div>
+                        <div id="budget" class="budget">
+                            <div class="alert alert-primary">
+                                <p>Budget :<span id="total">&nbsp;</span></p>
+                            </div>
+                            <div class="restante alert alert-success">
+                                <p>Left :<span id="left">&nbsp;</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center">
+        <p class="copyright" style="color: rgb(255,255,255);"><br>Ardent Dew © 2020</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/bs-animation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/Navbar---Apple.js"></script>
+</body>
+
+</html>
